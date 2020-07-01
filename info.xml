@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="banking-enrich" type="module">
   <file>banking_enrich</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Banking Enrich</name>
+  <description>identifies a ISBN number from a bank statement line</description>
   <license>AGPL-3.0</license>
   <maintainer>
-    <author>FIXME</author>
-    <email>FIXME</email>
+    <author>Klaas Eikelboom</author>
+    <email>klaas.eikelboom@civicoop.org</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/kainuk/banking-enrich</url>
+    <url desc="Documentation">https://github.com/kainuk/banking-enrich/blob/default/README.md</url>
+    <url desc="Support">klaas.eikelboom@civicoop.org</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2020-06-30</releaseDate>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>5.0</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>This is an example to be used in combination with CiviBanking</comments>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>

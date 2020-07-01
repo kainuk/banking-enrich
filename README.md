@@ -8,13 +8,7 @@
 
 ## Installation (CLI, Zip)
 
-Sysadmins and developers may download the `.zip` file for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-cd <extension-dir>
-cv dl banking-enrich@https://github.com/FIXME/banking-enrich/archive/master.zip
-```
+https://github.com/kainuk/banking-enrich/archive/default.zip
 
 ## Usage
 
@@ -22,7 +16,8 @@ A good introduction for CiviBanking can be found at https://github.com/Project60
 
 ## Known Issues
 
-The enrichiger is made for one specific use case. Use for inspiration.
+The enricher is made for one specific use case. Adapt as you like.
 
 ## Code of interest
-[]
+[CRM_Banking_PluginImpl_Matcher_Enrich](https://github.com/kainuk/banking-enrich/blob/default/CRM/Banking/PluginImpl/Matcher/Enrich.php): splits a ISBN number from a line.
+[CRM_BankingEnrich_Upgrader](https://github.com/kainuk/banking-enrich/blob/default/CRM/BankingEnrich/Upgrader.php): enables the plugin.
