@@ -4,7 +4,7 @@ use CRM_BankingEnrich_ExtensionUtil as E;
 /**
  * Collection of upgrade steps.
  */
-class CRM_BankingEnrich_Upgrader extends CRM_BankingEnrich_Upgrader_Base {
+class CRM_BankingEnrich_Upgrader extends CRM_Extension_Upgrader_Base {
 
   /**
    * Make sure our module's in the list

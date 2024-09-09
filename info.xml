@@ -18,13 +18,16 @@
   <version>1.1</version>
   <develStage>alpha</develStage>
   <compatibility>
-    <ver>5.0</ver>
+    <ver>5.38</ver>
   </compatibility>
   <comments>This is an example to be used in combination with CiviBanking</comments>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
+    <psr0 prefix="CRM_" path="."/>
   </classloader>
   <civix>
     <namespace>CRM/BankingEnrich</namespace>
+    <format>23.02.1</format>
   </civix>
+  <upgrader>CRM_BankingEnrich_Upgrader</upgrader>
 </extension>
